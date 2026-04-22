@@ -8,7 +8,7 @@ def hello():
 
 @app.route("/new")
 def new():
-    return "FINAL CHECK."
+    return "FINAL CHECK Time."
 
 if __name__ == "__main__":
     app.run(host="0.0.0.0", port=5000)
