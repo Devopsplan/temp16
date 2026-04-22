@@ -10,7 +10,7 @@ pipeline {
    stage('Checkout') {
      steps {
        git branch: 'main',
-           url: 'https://github.com/Devopsplan/delete.git'
+           url: 'https://github.com/Devopsplan/temp16.git'
      }
    }
    stage('Build') {
